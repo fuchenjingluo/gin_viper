@@ -1,0 +1,10 @@
+#用于写基础配置
+
+app:
+  name: gin_viper
+  port: 8000
+
+database:
+  dsn: 用户名:密码@tcp(127.0.0.1:3306)/数据库名称?charset=utf8mb4&parseTime=True&loc=Local
+  maxIdleConns: 10 #最大空闲连接
+  maxOpenConns: 100 #最多连接
